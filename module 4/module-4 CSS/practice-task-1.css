@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: auto;
+    width: 500px;
+    padding: 10px;
+    padding-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    background-color: #fbfbf8;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+section img{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.serach-form{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.feedback-form{
+    width: 100%;
+    height: auto;
+    margin-top: -10px;
+}
+
+.feedback-form button{
+    margin-top: 15px;
+}
+.feedback-form p{
+    margin-bottom: 0px;
+}

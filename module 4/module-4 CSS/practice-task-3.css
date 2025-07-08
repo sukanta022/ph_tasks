@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 500px;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+table{
+    width: 90%;
+    
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td{
+    padding: 10px;
+    box-shadow: 0 0 10px 	#929292;
+    
+}
+
+td{
+    
+}

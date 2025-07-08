@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section fieldset{
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fbfbf8;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+section legend{
+    text-align: center;
+    font-size: 20px;
+}
+
+section select{
+    margin-top: 15px;
+}
+
+section button{
+    margin-top: 15px;
+}
