@@ -31,6 +31,13 @@ body header, section{
   color: #FFFFFF;
 }
 
+.color-FF0000{
+  color: #FF0000;
+}
+.color-070211{
+  color:#070211;
+}
+
 /* header design */
 
 header{
@@ -57,3 +64,40 @@ header h2{
   margin-top: 0px;
 }
 
+/* offer anounce section design */
+
+.offer-anounce{
+  height: auto;
+}
+
+.offer-anounce h1{
+  font-weight: bold;
+  font-size: 88px;
+  margin-top: 0px;
+  margin-bottom: 48px;
+}
+
+.offer-anounce p{
+  font-weight: 500px;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.offer-anounce h4{
+  font-weight: bold;
+  font-size: 48px;
+  margin-top: 0px;
+  margin-bottom: 48px;
+}
+
+.offer-anounce div{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.offer-anounce img{
+  width: 803px;
+  height: 500px;
+}
