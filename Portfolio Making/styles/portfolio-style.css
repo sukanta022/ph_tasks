@@ -51,7 +51,7 @@
     color: #757575;
 }
 .header{
-    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     height: 800px;
     background-position: top left, bottom right;
