@@ -24,6 +24,23 @@
     font-size: 20px;
     border-radius: 5px;
     border-style: none;
+    margin-right: 30px;
+}
+.btn-contact{
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FFF8F3;
+}
+.header{
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    height: 800px;
+    background-position: top left, bottom right;
+    background-color: #FFF8F3;
 }
 
 nav{
@@ -41,7 +58,6 @@ nav{
 nav ul{
     display: flex;
     align-items: center;
-    
 }
 
 nav ul li{
@@ -52,4 +68,39 @@ nav ul li{
 li a{
     text-decoration: none;
     font-size: 20px;
+}
+
+/* banner style */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px 0 200px;
+}
+
+.banner-content{
+    max-width: 600px;
+    margin-top: 65px;
+}
+
+.banner-greetings{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: -40px;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+    margin-bottom: 30px;
+}
+
+.banner-description{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.banner-profile-pic{
+    width: 600px;
+    height: 650px;
 }
