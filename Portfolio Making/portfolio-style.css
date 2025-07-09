@@ -8,6 +8,9 @@
 }
 
 /* Shared style*/
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -33,7 +36,17 @@
     padding: 18px 35px;
     font-size: 20px;
     font-weight: bold;
-    background-color: #FFF8F3;
+}
+
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+.section-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
 }
 .header{
     background-image: url(images/developer.png), url(images/header_bg.png);
@@ -103,4 +116,28 @@ li a{
 .banner-profile-pic{
     width: 600px;
     height: 650px;
+}
+
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about style */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description{
+    font-weight: 600;
 }
