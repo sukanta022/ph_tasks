@@ -101,3 +101,40 @@ header h2{
   width: 803px;
   height: 500px;
 }
+
+/* party-announce sction design */
+
+.party-announce{
+    background-image: linear-gradient(to right, rgba(7, 2, 17, 1) 0%, rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
+}
+
+.party-announce div{
+  padding: 126px;
+}
+
+.party-announce h4{
+    font-size: 64px;
+    margin-top: 0;
+    width: 642px;
+    height: 176px;
+    letter-spacing: 11px;
+    margin-bottom: 24px;
+}
+
+
+.party-announce p{
+  font-size: 18px;
+  margin-top: 0px;
+  width: 697px;
+  height: 60px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 30px;
+}
+
+.party-announce a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 30px;
+}
