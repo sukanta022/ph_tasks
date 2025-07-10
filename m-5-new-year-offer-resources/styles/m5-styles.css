@@ -138,3 +138,37 @@ header h2{
   font-weight: bold;
   margin-left: 30px;
 }
+
+/* time and date section design */
+.time-and-date{
+  height: 482px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0.1) 0%, rgba(255, 0, 0, 0) 100%);  
+}
+
+.time-and-date p{
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: -20px;
+  
+}
+
+.time-and-date button{
+  width: 167px;
+  height: 56px;
+  background-color: #FF0000;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-style: none;
+  border-radius: 8px;
+  margin-top: 48px;
+}
+
+
+
+
+
