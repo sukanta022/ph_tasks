@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="stylesheet" href="nav-style.css">
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+        }
+        section{
+            margin-top: 10px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr repeat(1, 2fr);
+            column-gap: 10px;
+        }
+        .box1, .box2{
+            border: 1px solid black;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            line-height: 20;
+        }
+
+        .box1{
+            background-color: rgb(142, 142, 142);
+        }
+        .box2{
+            background-color: rgb(202, 189, 168);
+        }
+
+
+        @media screen and (max-width:576px){
+            section{
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-rows: 1fr repeat(1, 2fr);
+                row-gap: 10px;
+            }
+
+            .box1{
+                line-height: 5;
+            }
+            .box2{
+                line-height: 15;
+            }
+            
+        }        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="task1.html">Task 1</a></li>
+                <li><a href="task2.html">Task 2</a></li>
+                <li><a href="task4.html">Task 4</a></li>
+                <li><a href="task5.html">Task 5</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="box1">
+            <p>Left</p>
+        </div>
+        <div class="box2">
+            <p>Right</p>
+        </div>
+    </section>
+</body>
+</html>

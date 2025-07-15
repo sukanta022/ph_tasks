@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <link rel="stylesheet" href="nav-style.css">
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+        }
+        section {
+            margin-top: 10px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 10px;
+        }
+        
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 10;
+            font-size: 20px;
+        }
+
+        .items2{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            background-color: orangered;
+        }
+        .items1{
+            grid-row-start: 1;
+            grid-row-end: 3;
+            background-color: rgb(186, 45, 45);
+        }
+        .items3{
+            background-color: rgb(137, 73, 197);
+        }
+        .items4{
+            background-color: rgb(32, 115, 80);
+        }
+        @media screen and (max-width:576px){
+            section{
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-rows: repeat(4, 1fr);
+            }
+            .items2{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            
+            }
+            .items1{
+                grid-row-start: 1;
+                grid-row-end: 2;
+                background-color: rgb(186, 45, 45);
+            }
+        }
+
+            
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="task1.html">Task 1</a></li>
+                <li><a href="task2.html">Task 2</a></li>
+                <li><a href="task4.html">Task 4</a></li>
+                <li><a href="task5.html">Task 5</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="items1">1</div>
+        <div class="items2">2</div>
+        <div class="items3">3</div>
+        <div class="items4">4</div>
+    </section>
+</body>
+</html>
