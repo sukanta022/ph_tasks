@@ -255,3 +255,85 @@ footer textarea{
     padding-right: 24px;
 }
 
+/* responsive design part */
+
+@media screen and (max-width:576px){
+    .header{
+        background-image: none;
+        height: auto;
+    }
+    nav, nav>ul{
+        flex-direction: column;
+    }
+    nav ul{
+        gap: 10px;
+        margin-top: -20px;
+    }
+    nav{
+        margin: 0 10px;
+        
+    }
+    nav ul li{
+        margin-right: 30px;
+    }
+    nav ul li button{
+        margin-left: 20px;
+    }
+    .banner{
+        flex-direction: column;
+        padding:20px;
+        margin-bottom: 50px;
+        width: calc(100% - 40px);
+    }
+    .banner-profile-pic{
+        width: 100%;
+        height: 500px;
+        margin-top: 20px;
+    }
+    .banner-content{
+        
+        margin-top: 0px;
+    }
+    .skills-container{
+        flex-direction: column;
+    }
+    .skills-p{
+        padding: 0 10px;
+        margin-bottom: 50px;
+    }
+    .resume-container{
+        flex-direction: column;
+        padding-left: 20px;
+        margin-right: 15px;
+    }
+    .experience-description{
+        padding-right: 20px;
+    }
+    .resume-section-cv{
+        margin-top: 50px;
+        margin-bottom: 100px;
+        margin-left: 25px;
+    }
+    footer{ 
+        padding: 0;
+        flex-direction: column;
+        gap: 60px;
+        
+    }
+    .footer-column{
+        width: 100%;
+    }
+    footer input[type="text"], footer input[type="email"],footer textarea{
+        width: calc(100% - 40px);
+    }
+
+    .about{
+        padding: 20px;
+       margin-top: 30px;
+    }
+    .about-items{
+        flex-direction: column;
+    }
+
+}
+
