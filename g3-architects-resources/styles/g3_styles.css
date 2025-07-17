@@ -80,7 +80,7 @@ body{
     text-decoration: none;
 }
 
-.navbar, .banner{
+.navbar, .banner, .footer{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -207,6 +207,18 @@ body{
 
 .sponsors-company img{
     filter: grayscale(100%);
+}
+
+/* footer design */
+.footer{
+    padding: 10px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.footer p{
+    font-size: 1.25rem;
 }
 
 /* small size device */
