@@ -8,7 +8,92 @@
   font-style: normal;
 }
 
+/* shared styles */
+.dark01{
+    color: rgba(19, 19, 19, 1);
+}
+
+.dark02{
+    color: rgba(66, 66, 66, 1);
+}
+
+.dark03{
+    color: rgba(114, 114, 114, 1)
+}
+
+.bg-color{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.display-flex{
+    display: flex;
+}
+
+.btn-primary{
+    font-weight: 600;
+    background-color: rgba(255, 144, 14, 1);
+    color: white;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 10px;
+}
+
+
 body{
     margin: 0;
     padding: 0;
+}
+
+/* header styles */
+header{
+    width: 100vw;
+}
+/* navbar styles */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand{
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+
+.nav_item{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav_link{
+    text-decoration: none;
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* banner styles */
+
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.banner-img{
+    width: 100%;
+}
+
+@media screen and (max-width:576px){
+    .navbar, .nav_links{
+        flex-direction: column;
+    }
 }
